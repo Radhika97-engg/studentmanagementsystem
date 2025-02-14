@@ -19,7 +19,6 @@ typedef struct course
     int number_of_students;              // Integer to store the number of students in the course
     student *enrolled_students;          // Pointer to a dynamic array of enrolled students
 }course;
-
 // Function to free memory allocated for a course
 void free_course(course* course_input)
 {
